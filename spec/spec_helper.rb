@@ -4,7 +4,7 @@ require 'capybara/rspec'
 require 'capybara/poltergeist'
 Capybara.default_driver = :poltergeist
 Capybara.javascript_driver = :poltergeist
-Capybara.app_host = 'http://localhost:8080'
+Capybara.app_host = 'http://localhost:9966'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
