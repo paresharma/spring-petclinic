@@ -22,3 +22,11 @@ RSpec.configure do |config|
   config.order = :random
   Kernel.srand config.seed
 end
+
+RSpec::PageRegression.configure do |config|
+  config.viewports = {
+    desktop: [1280, 1024],
+    tablet: [1024, 768],
+    mobile: [480, 320]
+  }
+end

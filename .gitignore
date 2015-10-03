@@ -6,3 +6,4 @@ target/*
 *.iml
 /target
 /tmp
+.DS_Store

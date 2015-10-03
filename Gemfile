@@ -6,6 +6,6 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'poltergeist'
-  gem 'rspec-page-regression'
+  gem 'rspec-page-regression', path: '../rspec-page-regression'
   gem 'rspec'
 end
